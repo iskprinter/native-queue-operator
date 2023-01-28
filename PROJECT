@@ -6,4 +6,13 @@ plugins:
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: native-queue
 repo: github.com/iskprinter/native-queue
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: iskprinter.com
+  kind: NativeQueue
+  path: github.com/iskprinter/native-queue/api/v1alpha1
+  version: v1alpha1
 version: "3"
