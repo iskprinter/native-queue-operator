@@ -1,0 +1,12 @@
+apiVersion: iskprinter.com/v1alpha1
+kind: NativeQueue
+metadata:
+  labels:
+    app.kubernetes.io/name: nativequeue
+    app.kubernetes.io/instance: nativequeue-sample
+    app.kubernetes.io/part-of: native-queue
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: native-queue
+  name: nativequeue-sample
+spec:
+  # TODO(user): Add fields here
